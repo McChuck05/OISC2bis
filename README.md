@@ -41,7 +41,8 @@ Usage:  python oisc2bis.py infile.o2a [outfile.o2c]
     /sub can be called with 1 or 2 words (and still works without the '/sub')
         X Y      [Y] = [Y] - [X]
         X        [X] = 0
-    /call, /jump and /relj can be called with 1 or 2 words.  Branching to a negative address will halt.
+    /call, /jump and /relj can be called with 1 or 2 words.  
+           Branching to a negative address will halt.
         X Y      if [X] <= 0, branch to Y (relative jump by [Y])
         X        unconditional branch to X (relative jump by [X])
     /push, /pop and /exec are called with 1 word
