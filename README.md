@@ -6,6 +6,8 @@ This is the new and improved version, now with an actual parser.  And a stack.  
 
 The raw numbers are extremely obfuscated, but the parser makes it easy to use.  This may be against the spirit of esolangs.  Positive, negative, and zero valued instructions change the effects, and decimals make arguments indirect.  All instructions are in positive memory (use the absolute value).  Negative memory can only be accessed indirectly.
 
+Usage:  python oisc2bis.py infile.o2a [outfile.o2c]
+
     Two word instruction:  A B
 
     A B    Effect
