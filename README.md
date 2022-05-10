@@ -36,7 +36,7 @@ The raw numbers are extremely obfuscated, but the parser makes it easy to use.  
     ZERO         automatically created word containing 0
     &            negative and pointer (parser internal use)
 
-    /sub can be called with 1 or 2 words
+    /sub can be called with 1 or 2 words (and still works without the '/sub')
         X Y      [Y] = [Y] - [X]
         X        [X] = 0
     /call, /jump and /relj can be called with 1 or 2 words.  Branching to a negative address will halt.
