@@ -27,10 +27,10 @@ Usage:  python oisc2bis.py infile.o2a [outfile.o2c]
     %            data (optional in negative memory)
     name:        naming a memory word
     name         using a named word
-    *name        indirect reference [[name]] (if N is 23, *N is 23.0)
+    *name        indirect reference, represented by decimal (if N is 23, *N is 23.0)
     @            this word
     ?            next word
-    % --NEGATIVE: --NEGATIVE--     mandatory memory separator
+    % --NEGATIVE--: --NEGATIVE--     mandatory memory separator
     !            0
     ;            end of instruction
     ,            separator
